@@ -1,0 +1,31 @@
+.name {
+  display: grid;
+  width: auto;
+  height: 50px;
+  background-color: crimson;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.Pokemons {
+  display: grid;
+  grid-auto-columns: 100px, 100px;
+  grid-gap: 50px;
+  font-size: 50px;
+  background-color: darksalmon;
+  margin: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.parent {
+  display: grid;
+  grid-column: repeat(3, 100px);
+}
+.type {
+  position: absolute;
+  top: 140px;
+  right: 40px;
+}
