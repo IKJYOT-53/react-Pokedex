@@ -33,8 +33,6 @@ function App() {
   return (
     <>
     <h1>Pokidex</h1>
-    {console.log("Data Dump")}
-    {console.log(allPokemons[0])}
     { allPokemons.map(p => <Pokimon name={p.name} image={p.sprites.other.dream_world.front_default} type={p.types[0].type.name} />
     )}
     <button onClick={ButtonLoad}>Load More</button>
